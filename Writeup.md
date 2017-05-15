@@ -16,8 +16,8 @@ Reflection
     are used to draw the line on to the image. 
 Shortcomings
     Some protental short comings are that the left and right lane lines might not be in the exact center of the
-    image, some points do get kicked out of both lists. another is that the pipeline only draws straight lines
+    image, some points do get kicked out of both lists, another is that the pipeline only draws straight lines
     so the program will not work well for curved sections of road. 
 Suggestions for improvements
     Possible improvements include averaging the left and right points to find the middle point between the
-    two line segments. using a higher degree polyfit to be able to make curved lines.
+    two line segments, and using a higher degree polyfit to be able to make curved lines.
